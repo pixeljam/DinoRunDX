@@ -1,0 +1,1 @@
+﻿package gfx {		import flash.display.MovieClip;		public class Weather extends DinoClip {				public function Weather ():void {			assignGFX(new _Weather);		}				public function lStrike (lvl,alph) {			alpha=alph;			graphic.gotoAndPlay ("l"+lvl);					}	}	}

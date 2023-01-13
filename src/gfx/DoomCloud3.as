@@ -1,0 +1,1 @@
+﻿package gfx {		import flash.display.MovieClip;		public class DoomCloud3 extends DinoClip {				public function DoomCloud3 (px,py):void {						assignGFX(new _DoomCloud3);			x=px;			y=py;						}			}	}

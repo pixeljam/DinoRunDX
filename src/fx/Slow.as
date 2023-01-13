@@ -1,0 +1,1 @@
+﻿package fx {		import supers.Circle;		public class Slow extends Circle {				public function Slow (o,br):void {						//init			super.init (o,br);						//extra physics properties			ph.sh = "circ";		//shape			ph.r = 30;			//radius						}				public function main ():void {					}	}	}

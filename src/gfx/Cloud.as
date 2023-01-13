@@ -1,0 +1,1 @@
+﻿package gfx {		import flash.display.MovieClip;		public class Cloud extends DinoClip {				public var speed:Number;		public var w:int;		public var nam:String="cloud";				public function Cloud ():void {			assignGFX(new _Cloud);		}			}	}

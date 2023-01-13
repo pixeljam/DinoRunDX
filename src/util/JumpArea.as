@@ -1,0 +1,1 @@
+﻿package util {		import supers.Circle;		public class JumpArea extends Circle {				public function JumpArea (o,br):void {						//init			super.init (o,br);						//extra physics properties			ph.sh = "circ";		//shape			ph.r = 25;			//radius						}				public function main ():void {					}					}	}

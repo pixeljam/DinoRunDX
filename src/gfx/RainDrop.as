@@ -1,0 +1,1 @@
+﻿package gfx {		import flash.display.Sprite;		public class RainDrop extends DinoClip {				//public var speed:Number;				public function RainDrop (px,py,sp):void {						assignGFX(new _RainDrop);			x=px;			y=py;			alpha=(sp/20)-.4;					}			}	}
